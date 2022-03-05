@@ -1,8 +1,25 @@
+
 .caja{
     /* border:solid; */
     margin:0 auto;
     width:50%;
 }
+.capafondo{
+    background:url("fondo.jpg") no-repeat;
+    background-size:cover; 
+    filter:grayscale(1);
+    height:100%;
+    opacity:0.5;
+    position:fixed;
+    width:100%;
+    z-index:-1;
+}
+
+.capafondo iframe{
+    height:100%;
+    width:100%;
+}
+
 
 .caja .mifoto{
     border-radius:2em;
