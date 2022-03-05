@@ -1,11 +1,42 @@
+.navbar-dark, .bg-dark{
+    background:orange!important;
+}
 .caja{
     /* border:solid; */
     margin:0 auto;
     width:50%;
 }
+.capafondo{
+    background:url("fondo.jpg") no-repeat;
+    background-size:cover; 
+    filter:grayscale(1);
+    height:100%;
+    left:0;
+    opacity:0.5;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:-1;
+}
+
+.capafondo iframe{
+    height:100%;
+    width:100%;
+}
+
 
 .caja .mifoto{
     border-radius:2em;
     box-shadow:0 0 0.5em rgba(0,0,0,0.8);
     cursor:pointer;
+}
+.espacio{
+    /* border:solid red; */
+    height:80px;
+    margin-top:80px;
+}
+
+.row div[class^="col"]{
+    background:lightpink;
+    border:solid 0.1em #000;
 }
